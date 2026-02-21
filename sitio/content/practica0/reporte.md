@@ -261,17 +261,7 @@ En este proyecto se utilizó para automatizar la publicación del sitio en GitHu
 4. Activar GitHub Pages desde la configuración del repositorio.
 5. Cada vez que se realice un `git push`, el sitio se actualizará automáticamente.
 
----
 
-# Portafolio
-
-Repositorio en GitHub:  
-[https://github.com/ALXND3R]
-
-Página estática en GitHub Pages:  
-[https://alxnd3r.github.io/PORTAFOLIO/]
-
----
 
 # Conversión a PDF
 
@@ -284,3 +274,15 @@ Para entregar el reporte se utilizó una extensión que convierte archivos Markd
 Durante estas sesiones se integraron herramientas fundamentales del desarrollo moderno. Se aprendió a documentar con Markdown, controlar versiones con Git, trabajar en la nube con GitHub, generar sitios estáticos con Hugo y automatizar su publicación con GitHub Actions.
 
 Este proyecto representa el inicio formal del portafolio profesional y establece una base sólida para futuros desarrollos académicos y profesionales.
+
+---
+
+# Portafolio
+
+Repositorio en GitHub:  
+[REPOSITORIO: ALXNDR](https://github.com/ALXND3R)
+
+Página estática en GitHub Pages:  
+[PAGINA](https://alxnd3r.github.io/PORTAFOLIO/)
+
+---
