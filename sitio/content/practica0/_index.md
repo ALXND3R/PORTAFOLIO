@@ -1,4 +1,5 @@
-+++
-title = "Práctica 0"
-description = ""
-+++
+---
+title: "Práctica 0"
+---
+
+Sección de la práctica 0.

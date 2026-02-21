@@ -1,6 +1,10 @@
 ---
-title: "Reporte"
-draft: false
++++
+title = "Reporte"
+draft = false
+summary = ""
+showSummary = false
++++
 ---
 # Reporte: Implementación de Markdown, Git, GitHub, Hugo y GitHub Actions
 
