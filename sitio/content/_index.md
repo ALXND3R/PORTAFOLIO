@@ -6,4 +6,4 @@ title = 'ALXNDR'
 
 ## Prácticas
 
-- [Práctica 0]({{< relref "practica0" >}})
+[Práctica 0]({{< relref "/practica0/reporte.md" >}})
