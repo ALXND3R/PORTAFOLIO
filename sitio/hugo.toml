@@ -1,6 +1,3 @@
 baseURL = "https://ALXND3R.github.io/PORTAFOLIO/"
-theme = "ananke"
-languageCode = "en-us"
-title = "Portafolio de Paradigmas"
 relativeURLs = true
 canonifyURLs = true
