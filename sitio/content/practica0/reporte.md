@@ -280,7 +280,7 @@ Este proyecto representa el inicio formal del portafolio profesional y establece
 # Portafolio
 
 Repositorio en GitHub:  
-[REPOSITORIO: ALXNDR](https://github.com/ALXND3R)
+[MI REPOSITORIO: ALXND3R](https://github.com/ALXND3R)
 
 Página estática en GitHub Pages:  
 [PAGINA](https://alxnd3r.github.io/PORTAFOLIO/)
