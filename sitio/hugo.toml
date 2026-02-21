@@ -1,11 +1,8 @@
-baseURL = 'https://alxnd3r.github.io/PORTAFOLIO/'
-languageCode = 'es-es'
-title = 'ALXNDR'
+baseURL = "https://alxnd3r.github.io/PORTAFOLIO/"
+languageCode = "es-mx"
+title = "Mi Portafolio"
+theme = "ananke"
 
-# Deshabilitar RSS por completo
-disableKinds = ['RSS']
-
-[module]
-  [[module.mounts]]
-    source = "content"
-    target = "content"
+# Para GitHub Pages
+canonifyURLs = true
+relativeURLs = false
