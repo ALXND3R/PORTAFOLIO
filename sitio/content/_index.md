@@ -1,9 +1,8 @@
-+++
-date = '2026-02-13T10:07:46-08:00'
-draft = false
-title = 'ALXNDR'
-+++
+---
+title: "Mi Portafolio"
+date: 2024-01-01
+---
 
-## Prácticas
+# Bienvenido a mi portafolio
 
-- [Práctica 0](/practica0/reporte/)
+Este es mi sitio web personal. Aquí encontrarás mis proyectos y trabajos.

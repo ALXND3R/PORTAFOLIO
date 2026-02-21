@@ -1,3 +1,11 @@
-baseURL = "https://alxnd3r.github.io/PORTAFOLIO/"
-relativeURLs = true
-canonifyURLs = true
+baseURL = 'https://alxnd3r.github.io/PORTAFOLIO/'
+languageCode = 'es-es'
+title = 'ALXNDR'
+
+# Deshabilitar RSS por completo
+disableKinds = ['RSS']
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
