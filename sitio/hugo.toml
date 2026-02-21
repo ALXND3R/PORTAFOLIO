@@ -6,3 +6,6 @@ theme = "ananke"
 # Para GitHub Pages
 canonifyURLs = true
 relativeURLs = false
+
+[params]
+  mainSections = []

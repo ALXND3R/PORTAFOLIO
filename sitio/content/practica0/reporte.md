@@ -1,10 +1,7 @@
-+++
-title = "Reporte"
-draft = false
-summary = ""
-showSummary = false
-+++
-
+---
+title: "Reporte"
+draft: false
+---
 # Reporte: Implementación de Markdown, Git, GitHub, Hugo y GitHub Actions
 
 **Autor:** Alexander Alcantar
