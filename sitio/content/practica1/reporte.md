@@ -162,13 +162,6 @@ Desventajas:
 - Existe riesgo de fugas de memoria si no se usa `free`.
 
 ---
-¡Hola! Tu reporte en Markdown está muy bien redactado, estructurado y documentado. Tienes un excelente nivel de detalle en la explicación de las estructuras y la evolución de tu código.
-
-Para completar los requisitos que mencionas, he redactado las secciones faltantes manteniendo el mismo tono académico y técnico de tu documento.
-
-Aquí tienes los bloques de texto listos para que los copies y pegues en tu reporte:
-
----
 ### Sesión 3: Progreso y Delay
 ---
 En la tercera etapa se agregó una simulación completa del proceso de impresión.
