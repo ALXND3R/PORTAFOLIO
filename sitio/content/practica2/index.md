@@ -1,5 +1,5 @@
 
-# Reporte – Sistema de Estacionamiento con Flask y POO
+# Pracica 02 – Sistema de Estacionamiento con Flask y POO
 
 ## 1. Introducción
 
