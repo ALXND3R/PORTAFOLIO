@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow border-0 mt-3">
+            <div class="card-header bg-primary text-white text-center py-3">
+                <h4 class="mb-0"><i class="bi bi-arrow-right-circle"></i> Registrar Entrada</h4>
+            </div>
+            <div class="card-body p-4">
+                <form method="POST" action="/entry">
+                    <div class="mb-4">
+                        <label for="plates" class="form-label fw-bold">Placas del Vehículo</label>
+                        <input type="text" class="form-control form-control-lg" id="plates" name="plates" required
+                            placeholder="Ej: ABC-123">
+                    </div>
+                    <div class="mb-4">
+                        <label for="type" class="form-label fw-bold">Tipo de Vehículo</label>
+                        <select class="form-select form-select-lg" id="type" name="type" required>
+                            <option value="Car">🚗 Automóvil</option>
+                            <option value="Motorcycle">🏍️ Motocicleta</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg w-100">Generar Ticket</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
