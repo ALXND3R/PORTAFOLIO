@@ -92,3 +92,24 @@ El uso de Haskell resultó interesante ya que presenta un enfoque distinto al de
 
 En lo personal esta práctica permitió comprender de manera básica el paradigma funcional y observar su aplicación en un programa real. Aunque Haskell puede parecer complejo al principio demuestra ser un lenguaje poderoso y útil para el desarrollo de software estructurado.
 
+## Enlaces del proyecto
+
+### Página estática del reporte
+
+El reporte completo puede consultarse en la siguiente página:
+
+[Ver página del proyecto](https://alxnd3r.github.io/PORTAFOLIO/)
+
+### Repositorio de GitHub
+
+El código fuente del proyecto se encuentra disponible en el siguiente repositorio:
+
+[Ver repositorio en GitHub](https://github.com/ALXND3R/PORTAFOLIO)
+
+## 8. Referencias
+
+Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software.* Addison-Wesley.
+
+Lutz, M. (2013). *Learning Python (5th ed.).* O'Reilly Media.
+
+Grinberg, M. (2018). *Flask Web Development: Developing Web Applications with Python.* O'Reilly Media.
