@@ -1,0 +1,12 @@
+.env
+
+ihp/
+prod/
+
+.DS_Store
+
+# Ignore PureScript relevant files.
+# output 
+# .psc* 
+# .purs* 
+# .spago
