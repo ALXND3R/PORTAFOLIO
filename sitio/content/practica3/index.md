@@ -2,7 +2,7 @@
 
 ## Introducción
 
-Haskell es un lenguaje de programación funcional que se caracteriza por el uso de funciones puras, la inmutabilidad de los datos y una sintaxis diferente a lenguajes imperativos como C. A diferencia de estos, Haskell no se basa en la modificación de variables, sino en la evaluación de expresiones.
+Haskell es un lenguaje de programación funcional que se caracteriza por el uso de funciones puras, la inmutabilidad de los datos y una sintaxis diferente a lenguajes imperativos como C. A diferencia de estos Haskell no se basa en la modificación de variables sino en la evaluación de expresiones.
 
 El objetivo de esta práctica es instalar el entorno de desarrollo de Haskell, familiarizarse con sus herramientas principales y ejecutar una aplicación de ejemplo tipo TODO para comprender su funcionamiento básico.
 
@@ -12,15 +12,15 @@ Para comenzar se accedió a la página oficial de descargas de Haskell donde se 
 
 Durante este proceso se instalaron varias herramientas importantes:
 
-- GHCup: gestor que facilita la instalación del entorno de Haskell.
-- GHC (Glasgow Haskell Compiler): compilador principal del lenguaje.
-- Hugs: intérprete interactivo de Haskell.
-- HLS (Haskell Language Server): proporciona soporte de lenguaje y librerías estándar.
-- Stack: manejador de paquetes y dependencias.
-- Cabal: herramienta de construcción que trabaja junto con Stack y GHC.
+- **GHCup:** gestor que facilita la instalación del entorno de Haskell.
+- **GHC** (Glasgow Haskell Compiler): compilador principal del lenguaje.
+- **Hugs:** intérprete interactivo de Haskell.
+- **HLS (Haskell Language Server):** proporciona soporte de lenguaje y librerías estándar.
+- **Stack:** manejador de paquetes y dependencias.
+- **Cabal:** herramienta de construcción que trabaja junto con Stack y GHC.
 
 Los archivos de Haskell utilizan la extensión .hs lo que permite identificar fácilmente el código fuente.
-Una vez finalizada la instalación se verificó el correcto funcionamiento ejecutando comandos en la terminal, confirmando que las herramientas estaban disponibles.
+Una vez finalizada la instalación se verificó el correcto funcionamiento ejecutando comandos en la terminal confirmando que las herramientas estaban disponibles.
 
 ## Introducción al lenguaje Haskell
 
@@ -29,7 +29,7 @@ Aunque no se profundizó completamente en el lenguaje se logró entender su sint
 
 ## Descarga y preparación del proyecto
 
-Para trabajar con la aplicación TODO, se utilizó un repositorio público. Primero se clonó el repositorio completo utilizando Git mediante el comando:
+Para trabajar con la aplicación TODO se utilizó un repositorio público. Primero se clonó el repositorio completo utilizando Git mediante el comando:
 
 ```
 git clone https://github.com/steadylearner/Haskell.git
@@ -61,9 +61,9 @@ Después de compilar correctamente el proyecto se ejecutó la aplicación median
 stack exec todo-exe
 ````
 
-Al ejecutarse la aplicación mostró un menú de comandos en la terminal indicando que estaba lista para interactuar con el usuario. Inicialmente intentó abrir una dirección en http://localhost:3000, sin embargo el navegador mostró un error debido a que no existe un servidor activo en esa dirección. 
+Al ejecutarse la aplicación mostró un menú de comandos en la terminal indicando que estaba lista para interactuar con el usuario. Inicialmente intentó abrir una dirección en http://localhost:3000 sin embargo el navegador mostró un error debido a que no existe un servidor activo en esa dirección. 
 
-Durante la ejecución también se presentó un error relacionado con la ausencia del archivo .env, el cual fue solucionado creando dicho archivo manualmente e incluyendo la variable requerida:
+Durante la ejecución también se presentó un error relacionado con la ausencia del archivo .env el cual fue solucionado creando dicho archivo manualmente e incluyendo la variable requerida:
 
 ````
 WEBSITE=http://localhost:3000
@@ -80,15 +80,13 @@ La aplicación funciona desde la línea de comandos y permite gestionar una list
 
 Por ejemplo al ingresar el comando para agregar una tarea esta se almacena en una lista interna. Posteriormente se puede visualizar con el comando de listado o eliminar mediante su índice.
 
-El programa está desarrollado en Haskell y utiliza funciones para procesar los comandos ingresados por el usuario. La estructura del código se basa en archivos con extensión .hs, siendo el archivo principal el encargado de iniciar la ejecución del programa.
-
 Este tipo de aplicación demuestra cómo el paradigma funcional puede utilizarse para desarrollar programas interactivos aunque con un enfoque diferente al de lenguajes tradicionales como C.
 
 ## Conclusión
 
-En esta práctica se logró instalar correctamente el entorno de desarrollo de Haskell y ejecutar una aplicación funcional tipo TODO. A pesar de que el proceso de instalación puede ser pesado debido a la descarga de múltiples componentes, una vez configurado permite trabajar de manera eficiente con el lenguaje.
+En esta práctica se logró instalar correctamente el entorno de desarrollo de Haskell y ejecutar una aplicación funcional tipo TODO. A pesar de que el proceso de instalación puede ser pesado debido a la descarga de múltiples componentes una vez configurado permite trabajar de manera eficiente con el lenguaje.
 
-El uso de Haskell resultó interesante ya que presenta un enfoque distinto al de lenguajes imperativos. La ausencia de variables mutables y el uso de funciones puras cambian la forma de pensar al programar, lo cual puede resultar complicado al inicio pero también ofrece ventajas en cuanto a claridad y organización del código.
+El uso de Haskell resultó interesante ya que presenta un enfoque distinto al de lenguajes imperativos. La ausencia de variables mutables y el uso de funciones puras cambian la forma de pensar al programar lo cual puede resultar complicado al inicio pero también ofrece ventajas en cuanto a claridad y organización del código.
 
 En lo personal esta práctica permitió comprender de manera básica el paradigma funcional y observar su aplicación en un programa real. Aunque Haskell puede parecer complejo al principio demuestra ser un lenguaje poderoso y útil para el desarrollo de software estructurado.
 
@@ -108,8 +106,11 @@ El código fuente del proyecto se encuentra disponible en el siguiente repositor
 
 ## 8. Referencias
 
-Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). *Design Patterns: Elements of Reusable Object-Oriented Software.* Addison-Wesley.
+Steadylearner. (s.f.). Todo example (Haskell blog example). GitHub.
+https://github.com/steadylearner/Haskell/tree/main/examples/blog/todo
 
-Lutz, M. (2013). *Learning Python (5th ed.).* O'Reilly Media.
+HaskellWiki. (s.f.). Haskell tutorial for C programmers.
+https://wiki.haskell.org/index.php?title=Haskell_Tutorial_for_C_Programmers
 
-Grinberg, M. (2018). *Flask Web Development: Developing Web Applications with Python.* O'Reilly Media.
+Steadylearner. (s.f.). How to use Stack to build a Haskell app. DEV Community.
+https://dev.to/steadylearner/how-to-use-stack-to-build-a-haskell-app-499j
