@@ -1,6 +1,6 @@
 baseURL = "https://alxnd3r.github.io/PORTAFOLIO/"
 languageCode = "es-mx"
-title = "Mi Portafolio"
+title = "Portafolio de practicas"
 theme = "ananke"
 
 # Para GitHub Pages
