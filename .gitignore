@@ -1,2 +1,3 @@
 *.lock
 sitio/public/
+.env
